@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "objective_d:blocks/common_top",
+        "side": "objective_d:blocks/score_controller_side"
+    }
+}

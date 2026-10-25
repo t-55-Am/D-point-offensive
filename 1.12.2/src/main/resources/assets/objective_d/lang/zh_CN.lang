@@ -1,0 +1,221 @@
+# ===== 物品栏/方块名称 =====
+itemGroup.war_tab=D点攻势
+tile.capturePoint.name=占点方块
+tile.scoreController.name=分数控制器
+tile.battlePortal.name=战场入口
+
+# ===== 占点方块GUI =====
+gui.capture.title=占点方块配置
+gui.capture.name=点位名称
+gui.capture.radius=半径
+gui.capture.time=占领时间(秒)
+gui.capture.save=保存
+dp.gui.capture.title=占点配置
+dp.gui.capture.radius=半径:
+dp.gui.capture.time=时间(秒):
+dp.gui.capture.name=名称:
+dp.gui.capture.save=保存并关闭
+dp.gui.capture.base=大基地:
+dp.gui.capture.revive=复活模式:
+dp.gui.capture.neutral=中立
+dp.gui.capture.none=无
+dp.gui.capture.owner=占领方:
+dp.gui.capture.progress=进度: %.0f%%
+dp.gui.capture.capturing=占领中:
+dp.gui.capture.baseowner=大基地归属:
+dp.gui.capture.human=人类
+dp.gui.capture.zombie=丧尸
+dp.gui.capture.redteam=红队
+dp.gui.capture.blueteam=蓝队
+
+# ===== 分数控制器GUI =====
+gui.score.title=分数控制器
+gui.score.initial=初始分数
+gui.score.persecond=每秒每点扣分
+gui.score.reset=重置分数
+gui.score.save=保存配置
+dp.gui.score.title=分数控制器
+dp.gui.score.reset=重置分数
+dp.gui.score.save=保存配置
+dp.gui.score.pvemode=PvE模式:
+dp.gui.score.savepve=保存PvE配置
+dp.gui.score.pvpscore=PvP 分数
+dp.gui.score.initial=初始分数:
+dp.gui.score.persec=每秒每点扣分:
+dp.gui.score.pve=PvE 丧尸模式
+dp.gui.score.interval=刷新时间(秒):
+dp.gui.score.count=每批数量:
+dp.gui.score.min=最低数量:
+dp.gui.score.max=最高数量:
+dp.gui.switch.pvp=[点击切换：PvP]
+dp.gui.switch.pve=[点击切换：PvE]
+dp.gui.score.title.pvp=分数控制器【PvP模式】
+dp.gui.score.title.pve=分数控制器【PvE丧尸模式】
+
+# ===== 战场入口GUI =====
+gui.battle.title=战场入口
+gui.battle.red=红队名
+gui.battle.blue=蓝队名
+gui.battle.max=每队人数上限
+gui.battle.mode0=模式: 自带背包
+gui.battle.mode1=模式: OP预设背包
+gui.battle.saveop=保存OP背包模板
+gui.battle.spawnx=X 坐标
+gui.battle.spawny=Y 坐标
+gui.battle.spawnz=Z 坐标
+gui.battle.savespawn=保存传送坐标
+gui.battle.save=保存配置
+gui.battle.configRed=当前配置: 红队
+gui.battle.configBlue=当前配置: 蓝队
+gui.battle.teamName=队伍名称
+
+# ===== 通用开关 =====
+dp.gui.on=开
+dp.gui.off=关
+
+# ===== 聊天框 =====
+dp.chat.team=队伍
+dp.chat.all=全场
+dp.chat.hint=Tab切换频道 / 回车发送 / 滚轮翻历史 / ESC关闭
+dp.chat.empty=（暂无消息）
+dp.chat.more=↑ 滚轮查看更早
+
+# ===== 键位设置 =====
+key.quickcomm=快捷交流
+key.quickcommconfig=快捷交流设置
+key.chatgui=文字交流
+key.mark=标记方块
+key.categories.mymodid=D点攻势
+
+# ===== Tab面板 =====
+dp.tab.header.pve=名称-死亡-击杀-占点
+dp.tab.header.red=红队-击杀-助攻-占点-死亡
+dp.tab.header.blue=蓝队-击杀-助攻-占点-死亡
+
+# ===== 消息提示 =====
+msg.join.first=请先加入队伍 %s 或 %s (/scoreboard teams join <队伍> <你的名字>)
+msg.team.full=队伍 %s 已满，无法进入战场
+msg.enter=进入战场！
+msg.leave.first=你已在队伍 %s，请先 /scoreboard teams leave 再加入 %s
+dp.msg.zombie_capture=%s 被 丧尸 占领！丧尸增援已出动！
+dp.msg.humans=人类
+dp.msg.captured=%s 被 %s 占领！
+dp.msg.base_zombie=大基地被丧尸占领！丧尸获胜，人类战败！
+dp.msg.base_human=人类夺回大基地！
+dp.msg.base_red=大基地被红队占领！蓝队分数清零！
+dp.msg.base_blue=大基地被蓝队占领！红队分数清零！
+dp.msg.base=大基地:
+dp.msg.baseowner=大基地归属:
+dp.msg.revive=复活模式:
+
+# ===== 诊断/命令 =====
+dp.diag.score_off=[诊断] 掉分功能已关闭（enableScore=false）→ 不掉分是正常的，请在聊天栏输入 score on 打开
+dp.diag.lead=[诊断] 红占%d点 蓝占%d点 分数 %d/%d 每秒±%d enableScore=%s enableCapture=%s PvE=%s
+dp.cmd.score_on=掉分已开启
+dp.cmd.score_off=掉分已关闭
+dp.cmd.capture_on=占点已开启
+dp.cmd.capture_off=占点已关闭
+dp.cmd.pve_status=PvE 丧尸模式：%s
+dp.cmd.pve_on=开启（丧尸可占点并持续增援）
+dp.cmd.pve_off=关闭
+
+# ===== 领先/结算 =====
+dp.lead.red=红队占 %d 点领先 → 红 +%d 蓝 -%d   [%d / %d]
+dp.lead.blue=蓝队占 %d 点领先 → 蓝 +%d 红 -%d   [%d / %d]
+dp.result.red_defeat=红方战败
+dp.result.blue_win=蓝方获胜
+dp.result.blue_defeat=蓝方战败
+dp.result.red_win=红方获胜
+dp.result.nokills=无击杀记录
+dp.result.first=第一名
+dp.result.second=第二名
+dp.result.third=第三名
+dp.result.killline=%s %s 击杀 %s
+
+# ===== 战术标记 =====
+dp.mark.coord=坐标
+dp.mark.bearing=方位
+dp.mark.spam=请勿发送垃圾消息
+dp.quickcomm.empty=（暂无指令，按设置键配置）
+# ===== 分数控制器 =====
+dp.gui.score.start=开始游戏
+dp.gui.score.end=结束对局
+dp.gui.score.attack=基础攻击力:
+dp.gui.score.speed=移动速度(格/秒):
+dp.gui.score.health=最大血量:
+dp.gui.score.status=状态:
+dp.gui.score.ongoing=对局进行中
+dp.gui.score.notstarted=未开始
+
+# ===== Tab面板列名 =====
+dp.tab.name=名称
+dp.tab.kill=击杀
+dp.tab.assist=助攻
+dp.tab.capture=占点
+dp.tab.death=死亡
+dp.tab.redteam=红队
+dp.tab.blueteam=蓝队
+dp.tab.noteam=无队
+dp.capture.point=据点
+tile.teamTeleporter.name=战场传送器
+gui.battle.team=队伍: %s
+gui.battle.color=颜色:
+gui.battle.side=阵营:
+gui.battle.sidered=红方
+gui.battle.sideblue=蓝方
+gui.battle.add=添加为新队伍
+gui.battle.remove=删除当前队伍
+color.red=红
+color.blue=蓝
+color.green=绿
+color.yellow=黄
+color.purple=紫
+color.cyan=青
+color.orange=橙
+color.pink=粉
+color.brown=棕
+color.white=白
+gui.teleporter.title=战场传送器
+gui.teleporter.select=队伍: %s
+gui.teleporter.hint=红石信号激活：按下方开关设置生效
+gui.teleporter.none=未选择队伍
+gui.teleporter.swapon=换装：开启
+gui.teleporter.swapoff=换装：关闭
+gui.teleporter.tpon=传送：开启
+gui.teleporter.tpoff=传送：关闭
+msg.team.joined=你已加入队伍 %s
+msg.teleporter.noteam=传送器未选择队伍，请右键打开界面选择
+msg.team.added=已添加队伍 %s
+msg.team.removed=已删除队伍 %s
+msg.team.exists=队伍 %s 已存在
+msg.team.limit=队伍数量已达上限（10 个）
+msg.team.empty=队伍名不能为空
+dp.msg.eliminated=队伍 %s 被淘汰！
+dp.msg.winmulti=队伍 %s 获胜！
+dp.gui.score.mode=模式：%s
+dp.gui.score.mode.duo=双队对抗
+dp.gui.score.mode.multi=多队伍
+qc.tab.quick=快捷交流
+qc.tab.hud=HUD 配置
+qc.save=保存
+qc.on=开
+qc.off=关
+qc.title.quick=快捷交流配置
+qc.title.hud=HUD 配置
+qc.catname=分类名称
+qc.cmds=指令（留空=不显示）
+qc.hud.scorebar=分数条
+qc.hud.radar=罗盘
+qc.hud.ring=据点环
+qc.hud.range=范围圈
+qc.hud.floating=漂浮名
+qc.hud.scorey=分数条Y:
+qc.hud.scorex=分数条X:
+qc.hud.scorew=分数条宽:
+qc.hud.radary=罗盘Y:
+qc.hud.radarw=罗盘宽(0=自动):
+qc.hud.hint=保存后立即生效；X=0 为水平居中，正数右移
+shift.desc.capturePoint=据点方块：放置后划定范围，玩家按队伍占领并推进占点进度，影响计分掉分
+shift.desc.scoreController=分数控制器：设置初始分数/每秒扣分，切换双队或多队伍模式，开始/结束对局
+shift.desc.battlePortal=队伍配置器：创建与配置队伍（最多10个），选择颜色、人数上限与传送点，可保存背包模板
+shift.desc.teamTeleporter=战场传送器：右键选择队伍，红石信号激活后范围内玩家加入该队并换装/传送到队伍传送点

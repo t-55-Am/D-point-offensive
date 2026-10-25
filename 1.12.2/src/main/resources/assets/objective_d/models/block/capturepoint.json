@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "objective_d:blocks/common_top",
+        "side": "objective_d:blocks/capture_point_side"
+    }
+}
