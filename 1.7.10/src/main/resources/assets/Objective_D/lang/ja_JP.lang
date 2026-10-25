@@ -1,0 +1,227 @@
+# ===== アイテム/ブロック名 =====
+itemGroup.war_tab=目標D
+tile.capturePoint.name=占拠ポイント
+tile.scoreController.name=スコアコントローラー
+tile.battlePortal.name=バトルポータル
+
+# ===== 占拠ポイントGUI =====
+gui.capture.title=占拠ポイント設定
+gui.capture.name=ポイント名
+gui.capture.radius=半径
+gui.capture.time=占拠時間(秒)
+gui.capture.save=保存
+dp.gui.capture.title=占拠設定
+dp.gui.capture.radius=半径:
+dp.gui.capture.time=時間(秒):
+dp.gui.capture.name=名前:
+dp.gui.capture.save=保存して閉じる
+dp.gui.capture.base=メインベース:
+dp.gui.capture.revive=復活モード:
+dp.gui.capture.neutral=中立
+dp.gui.capture.none=なし
+dp.gui.capture.owner=所有者:
+dp.gui.capture.progress=進捗: %.0f%%
+dp.gui.capture.capturing=占拠中:
+dp.gui.capture.baseowner=メインベース所有者:
+dp.gui.capture.human=人間
+dp.gui.capture.zombie=ゾンビ
+dp.gui.capture.redteam=赤チーム
+dp.gui.capture.blueteam=青チーム
+
+# ===== スコアコントローラーGUI =====
+gui.score.title=スコアコントローラー
+gui.score.initial=初期スコア
+gui.score.persecond=1ポイント毎秒の減少
+gui.score.reset=スコアリセット
+gui.score.save=設定を保存
+dp.gui.score.title=スコアコントローラー
+dp.gui.score.reset=スコアリセット
+dp.gui.score.save=設定を保存
+dp.gui.score.pvemode=PvEモード:
+dp.gui.score.savepve=PvE設定を保存
+dp.gui.score.pvpscore=PvPスコア
+dp.gui.score.initial=初期スコア:
+dp.gui.score.persec=1ポイント毎秒の減少:
+dp.gui.score.pve=PvEゾンビモード
+dp.gui.score.interval=スポーン間隔(秒):
+dp.gui.score.count=スポーン数:
+dp.gui.score.min=最小数:
+dp.gui.score.max=最大数:
+dp.gui.switch.pvp=[クリックで切替: PvP]
+dp.gui.switch.pve=[クリックで切替: PvE]
+dp.gui.score.title.pvp=スコアコントローラー [PvPモード]
+dp.gui.score.title.pve=スコアコントローラー [PvEゾンビモード]
+
+# ===== バトルポータルGUI =====
+
+# ===== Team Colors =====
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+
+
+# ===== 一般トグル =====
+dp.gui.on=オン
+dp.gui.off=オフ
+
+# ===== チャット =====
+dp.chat.team=チーム
+dp.chat.all=全員
+dp.chat.hint=Tab:チャンネル切替 / Enter:送信 / Scroll:履歴 / ESC:閉じる
+dp.chat.empty=(メッセージなし)
+dp.chat.more=↑ スクロールで更多
+
+# ===== キー設定 =====
+key.quickcomm=クイックコマンド
+key.quickcommconfig=クイックコマンド設定
+key.chatgui=テキストチャット
+key.mark=ブロックをマーク
+key.categories.mymodid=目標D
+
+# ===== Tabパネル =====
+dp.tab.header.pve=名前-死亡-キル-占拠
+dp.tab.header.red=赤-キル-アシスト-占拠-死亡
+dp.tab.header.blue=青-キル-アシスト-占拠-死亡
+
+# ===== メッセージ =====
+msg.join.first=先にチーム %s または %s に参加してください (/scoreboard teams join <チーム> <あなたの名前>)
+msg.enter=戦闘開始！
+msg.leave.first=あなたは既にチーム %s にいます。%s に参加する前に /scoreboard teams leave を実行してください
+dp.msg.zombie_capture=%s がゾンビに占拠された！ゾンビ増援が展開された！
+dp.msg.humans=人間
+dp.msg.captured=%s が %s に占拠された！
+dp.msg.base_zombie=メインベースがゾンビに占拠された！ゾンビの勝利、人間の敗北！
+dp.msg.base_human=人間がメインベースを奪還した！
+dp.msg.base_red=メインベースが赤チームに占拠された！青チームのスコアがリセットされた！
+dp.msg.base_blue=メインベースが青チームに占拠された！赤チームのスコアがリセットされた！
+dp.msg.base=メインベース:
+dp.msg.baseowner=メインベース所有者:
+dp.msg.revive=復活モード:
+
+# ===== 診断/コマンド =====
+dp.diag.score_off=[診断] スコア減少が無効です (enableScore=false) → スコアが減らないのは正常です。有効にするにはチャットで score on と入力してください
+dp.diag.lead=[診断] 赤 %d pt 青 %d pt スコア %d/%d ±%d/秒 enableScore=%s enableCapture=%s PvE=%s
+dp.cmd.score_on=スコア減少が有効になりました
+dp.cmd.score_off=スコア減少が無効になりました
+dp.cmd.capture_on=占拠が有効になりました
+dp.cmd.capture_off=占拠が無効になりました
+dp.cmd.pve_status=PvEゾンビモード: %s
+dp.cmd.pve_on=有効 (ゾンビが占拠と増援を行えます)
+dp.cmd.pve_off=無効
+
+# ===== リード/結果 =====
+dp.lead.red=赤チームが %d ポイントでリード → 赤 +%d 青 -%d   [%d / %d]
+dp.lead.blue=青チームが %d ポイントでリード → 青 +%d 赤 -%d   [%d / %d]
+dp.result.red_defeat=赤の敗北
+dp.result.blue_win=青の勝利
+dp.result.blue_defeat=青の敗北
+dp.result.red_win=赤の勝利
+dp.result.nokills=キル記録なし
+dp.result.first=1位
+dp.result.second=2位
+dp.result.third=3位
+dp.result.killline=%s %s キル %s
+
+# ===== 戦術マーカー =====
+dp.mark.coord=座標
+dp.mark.bearing=方位
+dp.mark.spam=スパムしないでください
+dp.quickcomm.empty=(コマンドがありません。設定キーを押して設定してください)
+
+# ===== スコアコントローラー =====
+dp.gui.score.start=ゲーム開始
+dp.gui.score.end=試合終了
+dp.gui.score.attack=基本攻撃力:
+dp.gui.score.speed=移動速度(ブロック/秒):
+dp.gui.score.health=最大HP:
+dp.gui.score.status=ステータス:
+dp.gui.score.ongoing=試合中
+dp.gui.score.notstarted=未開始
+
+# ===== Tabパネル列 =====
+dp.tab.name=名前
+dp.tab.kill=キル
+dp.tab.assist=アシスト
+dp.tab.capture=占拠
+dp.tab.death=死亡
+dp.tab.redteam=赤チーム
+dp.tab.blueteam=青チーム
+dp.tab.noteam=チームなし
+dp.capture.point=占拠ポイント
+
+# ===== Team Configurator GUI (v1.1.8) =====
+gui.battle.title=Team Configurator
+gui.battle.team=Team: %s
+gui.battle.teamName=Team Name
+gui.battle.max=Max Players
+gui.battle.spawnx=X Coord
+gui.battle.spawny=Y Coord
+gui.battle.spawnz=Z Coord
+gui.battle.color=Color:
+gui.battle.side=Side:
+gui.battle.sidered=Red Side
+gui.battle.sideblue=Blue Side
+gui.battle.add=Add as New Team
+gui.battle.remove=Delete Current Team
+gui.battle.save=Save Config
+gui.battle.saveop=Save Backpack Template
+
+# ===== Team Colors =====
+color.red=Red
+color.blue=Blue
+color.green=Green
+color.yellow=Yellow
+color.purple=Purple
+color.cyan=Cyan
+color.orange=Orange
+color.pink=Pink
+color.brown=Brown
+color.white=White
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+gui.teleporter.title=Battle Teleporter
+gui.teleporter.select=Team: %s
+gui.teleporter.hint=Redstone activates per toggles below
+gui.teleporter.none=No Team Selected
+
+# ===== Team Messages (v1.1.8) =====
+msg.team.added=Team %s added
+msg.team.removed=Team %s removed
+msg.team.exists=Team %s already exists
+msg.team.limit=Team limit reached (10)
+msg.team.empty=Team name cannot be empty
+tile.teamTeleporter.name=Battle Teleporter
+msg.teleporter.noteam=Teleporter has no team selected. Open it and pick one.
+gui.teleporter.swapon=Swap Gear: On
+gui.teleporter.swapoff=Swap Gear: Off
+gui.teleporter.tpon=Teleport: On
+gui.teleporter.tpoff=Teleport: Off
+dp.msg.eliminated=Team %s eliminated!
+dp.msg.winmulti=Team %s wins!
+dp.gui.score.mode=Mode: %s
+dp.gui.score.mode.duo=Duo Battle
+dp.gui.score.mode.multi=Multi-Team
+msg.team.joined=Joined team %s
+qc.tab.quick=Quick Chat
+qc.tab.hud=HUD Settings
+qc.save=Save
+qc.on=On
+qc.off=Off
+qc.title.quick=Quick Chat Config
+qc.title.hud=HUD Settings
+qc.catname=Category Name
+qc.cmds=Commands (empty = hidden)
+qc.hud.scorebar=Score Bar
+qc.hud.radar=Radar
+qc.hud.ring=Capture Ring
+qc.hud.range=Range Circle
+qc.hud.floating=Floating Names
+qc.hud.scorey=Score Y:
+qc.hud.scorex=Score X:
+qc.hud.scorew=Score Width:
+qc.hud.radary=Radar Y:
+qc.hud.radarw=Radar Width (0=auto):
+qc.hud.hint=Saves apply instantly; X=0 centers, positive moves right
+shift.desc.capturePoint=Capture point: claim it with your team to drain the enemy score
+shift.desc.scoreController=Score controller: set initial score / drain rate, switch duo or multi-team mode, start/end the match
+shift.desc.battlePortal=Team configurator: create and configure teams (max 10), pick color, cap and spawn, save backpack template
+shift.desc.teamTeleporter=Battle teleporter: right-click to pick a team; redstone joins nearby players to that team, swaps gear and teleports

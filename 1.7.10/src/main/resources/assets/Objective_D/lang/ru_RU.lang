@@ -1,0 +1,227 @@
+# ===== Названия предметов/блоков =====
+itemGroup.war_tab=Цель D
+tile.capturePoint.name=Точка захвата
+tile.scoreController.name=Контроллер очков
+tile.battlePortal.name=Боевой портал
+
+# ===== GUI точки захвата =====
+gui.capture.title=Настройка точки захвата
+gui.capture.name=Название точки
+gui.capture.radius=Радиус
+gui.capture.time=Время захвата (сек)
+gui.capture.save=Сохранить
+dp.gui.capture.title=Настройка захвата
+dp.gui.capture.radius=Радиус:
+dp.gui.capture.time=Время (сек):
+dp.gui.capture.name=Название:
+dp.gui.capture.save=Сохранить и закрыть
+dp.gui.capture.base=Главная база:
+dp.gui.capture.revive=Режим возрождения:
+dp.gui.capture.neutral=Нейтрально
+dp.gui.capture.none=Нет
+dp.gui.capture.owner=Владелец:
+dp.gui.capture.progress=Прогресс: %.0f%%
+dp.gui.capture.capturing=Захватывает:
+dp.gui.capture.baseowner=Владелец главной базы:
+dp.gui.capture.human=Люди
+dp.gui.capture.zombie=Зомби
+dp.gui.capture.redteam=Красная команда
+dp.gui.capture.blueteam=Синяя команда
+
+# ===== GUI контроллера очков =====
+gui.score.title=Контроллер очков
+gui.score.initial=Начальные очки
+gui.score.persecond=Потеря очков за точку в секунду
+gui.score.reset=Сбросить очки
+gui.score.save=Сохранить настройки
+dp.gui.score.title=Контроллер очков
+dp.gui.score.reset=Сбросить очки
+dp.gui.score.save=Сохранить настройки
+dp.gui.score.pvemode=Режим PvE:
+dp.gui.score.savepve=Сохранить настройки PvE
+dp.gui.score.pvpscore=Очки PvP
+dp.gui.score.initial=Начальные очки:
+dp.gui.score.persec=Потеря за точку в секунду:
+dp.gui.score.pve=Режим зомби PvE
+dp.gui.score.interval=Интервал спавна (сек):
+dp.gui.score.count=Количество спавна:
+dp.gui.score.min=Мин. количество:
+dp.gui.score.max=Макс. количество:
+dp.gui.switch.pvp=[Нажмите для переключения: PvP]
+dp.gui.switch.pve=[Нажмите для переключения: PvE]
+dp.gui.score.title.pvp=Контроллер очков [Режим PvP]
+dp.gui.score.title.pve=Контроллер очков [Режим зомби PvE]
+
+# ===== GUI боевого портала =====
+
+# ===== Team Colors =====
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+
+
+# ===== Общие переключатели =====
+dp.gui.on=Вкл
+dp.gui.off=Выкл
+
+# ===== Чат =====
+dp.chat.team=Команда
+dp.chat.all=Все
+dp.chat.hint=Tab:Сменить канал / Enter:Отправить / Scroll:История / ESC:Закрыть
+dp.chat.empty=(Нет сообщений)
+dp.chat.more=↑ Прокрутите для большего
+
+# ===== Управление =====
+key.quickcomm=Быстрые команды
+key.quickcommconfig=Настройка быстрых команд
+key.chatgui=Текстовый чат
+key.mark=Отметить блок
+key.categories.mymodid=Цель D
+
+# ===== Панель Tab =====
+dp.tab.header.pve=Имя-Смерть-Убийство-Захват
+dp.tab.header.red=Красные-Убийство-Помощь-Захват-Смерть
+dp.tab.header.blue=Синие-Убийство-Помощь-Захват-Смерть
+
+# ===== Сообщения =====
+msg.join.first=Пожалуйста, сначала присоединитесь к команде %s или %s (/scoreboard teams join <команда> <ваше имя>)
+msg.enter=Войти в бой!
+msg.leave.first=Вы уже в команде %s, пожалуйста, выполните /scoreboard teams leave перед присоединением к %s
+dp.msg.zombie_capture=%s захвачено зомби! Подкрепление зомби отправлено!
+dp.msg.humans=Люди
+dp.msg.captured=%s захвачено командой %s!
+dp.msg.base_zombie=Главная база захвачена зомби! Зомби победили, люди проиграли!
+dp.msg.base_human=Люди отбили главную базу!
+dp.msg.base_red=Главная база захвачена красной командой! Очки синей команды сброшены!
+dp.msg.base_blue=Главная база захвачена синей командой! Очки красной команды сброшены!
+dp.msg.base=Главная база:
+dp.msg.baseowner=Владелец главной базы:
+dp.msg.revive=Режим возрождения:
+
+# ===== Диагностика/Команды =====
+dp.diag.score_off=[Диагностика] Потеря очков отключена (enableScore=false) → отсутствие потери очков является нормой, введите score on в чат для включения
+dp.diag.lead=[Диагностика] Красные %d очков Синие %d очков Очки %d/%d ±%d/сек enableScore=%s enableCapture=%s PvE=%s
+dp.cmd.score_on=Потеря очков включена
+dp.cmd.score_off=Потеря очков отключена
+dp.cmd.capture_on=Захват включен
+dp.cmd.capture_off=Захват отключен
+dp.cmd.pve_status=Режим зомби PvE: %s
+dp.cmd.pve_on=Включено (зомби могут захватывать и подкрепляться)
+dp.cmd.pve_off=Отключено
+
+# ===== Лидерство/Результат =====
+dp.lead.red=Красная команда лидирует с %d очками → Красные +%d Синие -%d   [%d / %d]
+dp.lead.blue=Синяя команда лидирует с %d очками → Синие +%d Красные -%d   [%d / %d]
+dp.result.red_defeat=Красные побеждены
+dp.result.blue_win=Победа синих
+dp.result.blue_defeat=Синие побеждены
+dp.result.red_win=Победа красных
+dp.result.nokills=Нет записей об убийствах
+dp.result.first=1-е место
+dp.result.second=2-е место
+dp.result.third=3-е место
+dp.result.killline=%s %s Убийств %s
+
+# ===== Тактические отметки =====
+dp.mark.coord=Коорд
+dp.mark.bearing=Азимут
+dp.mark.spam=Пожалуйста, не спамьте
+dp.quickcomm.empty=(Нет команд, нажмите клавишу настройки для настройки)
+
+# ===== Контроллер очков =====
+dp.gui.score.start=Начать игру
+dp.gui.score.end=Закончить матч
+dp.gui.score.attack=Базовая атака:
+dp.gui.score.speed=Скорость движения (блоков/сек):
+dp.gui.score.health=Макс. здоровье:
+dp.gui.score.status=Статус:
+dp.gui.score.ongoing=Матч идёт
+dp.gui.score.notstarted=Не начато
+
+# ===== Колонки панели Tab =====
+dp.tab.name=Имя
+dp.tab.kill=Убийства
+dp.tab.assist=Помощи
+dp.tab.capture=Захваты
+dp.tab.death=Смерти
+dp.tab.redteam=Красная команда
+dp.tab.blueteam=Синяя команда
+dp.tab.noteam=Без команды
+dp.capture.point=Точка
+
+# ===== Team Configurator GUI (v1.1.8) =====
+gui.battle.title=Team Configurator
+gui.battle.team=Team: %s
+gui.battle.teamName=Team Name
+gui.battle.max=Max Players
+gui.battle.spawnx=X Coord
+gui.battle.spawny=Y Coord
+gui.battle.spawnz=Z Coord
+gui.battle.color=Color:
+gui.battle.side=Side:
+gui.battle.sidered=Red Side
+gui.battle.sideblue=Blue Side
+gui.battle.add=Add as New Team
+gui.battle.remove=Delete Current Team
+gui.battle.save=Save Config
+gui.battle.saveop=Save Backpack Template
+
+# ===== Team Colors =====
+color.red=Red
+color.blue=Blue
+color.green=Green
+color.yellow=Yellow
+color.purple=Purple
+color.cyan=Cyan
+color.orange=Orange
+color.pink=Pink
+color.brown=Brown
+color.white=White
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+gui.teleporter.title=Battle Teleporter
+gui.teleporter.select=Team: %s
+gui.teleporter.hint=Redstone activates per toggles below
+gui.teleporter.none=No Team Selected
+
+# ===== Team Messages (v1.1.8) =====
+msg.team.added=Team %s added
+msg.team.removed=Team %s removed
+msg.team.exists=Team %s already exists
+msg.team.limit=Team limit reached (10)
+msg.team.empty=Team name cannot be empty
+tile.teamTeleporter.name=Battle Teleporter
+msg.teleporter.noteam=Teleporter has no team selected. Open it and pick one.
+gui.teleporter.swapon=Swap Gear: On
+gui.teleporter.swapoff=Swap Gear: Off
+gui.teleporter.tpon=Teleport: On
+gui.teleporter.tpoff=Teleport: Off
+dp.msg.eliminated=Team %s eliminated!
+dp.msg.winmulti=Team %s wins!
+dp.gui.score.mode=Mode: %s
+dp.gui.score.mode.duo=Duo Battle
+dp.gui.score.mode.multi=Multi-Team
+msg.team.joined=Joined team %s
+qc.tab.quick=Quick Chat
+qc.tab.hud=HUD Settings
+qc.save=Save
+qc.on=On
+qc.off=Off
+qc.title.quick=Quick Chat Config
+qc.title.hud=HUD Settings
+qc.catname=Category Name
+qc.cmds=Commands (empty = hidden)
+qc.hud.scorebar=Score Bar
+qc.hud.radar=Radar
+qc.hud.ring=Capture Ring
+qc.hud.range=Range Circle
+qc.hud.floating=Floating Names
+qc.hud.scorey=Score Y:
+qc.hud.scorex=Score X:
+qc.hud.scorew=Score Width:
+qc.hud.radary=Radar Y:
+qc.hud.radarw=Radar Width (0=auto):
+qc.hud.hint=Saves apply instantly; X=0 centers, positive moves right
+shift.desc.capturePoint=Capture point: claim it with your team to drain the enemy score
+shift.desc.scoreController=Score controller: set initial score / drain rate, switch duo or multi-team mode, start/end the match
+shift.desc.battlePortal=Team configurator: create and configure teams (max 10), pick color, cap and spawn, save backpack template
+shift.desc.teamTeleporter=Battle teleporter: right-click to pick a team; redstone joins nearby players to that team, swaps gear and teleports

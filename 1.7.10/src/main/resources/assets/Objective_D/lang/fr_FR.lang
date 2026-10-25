@@ -1,0 +1,227 @@
+# ===== Noms d'objets/blocs =====
+itemGroup.war_tab=Objectif D
+tile.capturePoint.name=Point de capture
+tile.scoreController.name=Contrôleur de score
+tile.battlePortal.name=Portail de bataille
+
+# ===== GUI point de capture =====
+gui.capture.title=Config point de capture
+gui.capture.name=Nom du point
+gui.capture.radius=Rayon
+gui.capture.time=Temps de capture (sec)
+gui.capture.save=Enregistrer
+dp.gui.capture.title=Config capture
+dp.gui.capture.radius=Rayon:
+dp.gui.capture.time=Temps (sec):
+dp.gui.capture.name=Nom:
+dp.gui.capture.save=Enregistrer et fermer
+dp.gui.capture.base=Base principale:
+dp.gui.capture.revive=Mode résurrection:
+dp.gui.capture.neutral=Neutre
+dp.gui.capture.none=Aucun
+dp.gui.capture.owner=Propriétaire:
+dp.gui.capture.progress=Progrès: %.0f%%
+dp.gui.capture.capturing=Capture:
+dp.gui.capture.baseowner=Propriétaire base principale:
+dp.gui.capture.human=Humains
+dp.gui.capture.zombie=Zombies
+dp.gui.capture.redteam=Équipe rouge
+dp.gui.capture.blueteam=Équipe bleue
+
+# ===== GUI contrôleur de score =====
+gui.score.title=Contrôleur de score
+gui.score.initial=Score initial
+gui.score.persecond=Perte par point par sec
+gui.score.reset=Réinitialiser le score
+gui.score.save=Enregistrer la config
+dp.gui.score.title=Contrôleur de score
+dp.gui.score.reset=Réinitialiser le score
+dp.gui.score.save=Enregistrer la config
+dp.gui.score.pvemode=Mode PvE:
+dp.gui.score.savepve=Enregistrer config PvE
+dp.gui.score.pvpscore=Score PvP
+dp.gui.score.initial=Score initial:
+dp.gui.score.persec=Perte par point par sec:
+dp.gui.score.pve=Mode zombie PvE
+dp.gui.score.interval=Intervalle spawn (sec):
+dp.gui.score.count=Nombre de spawn:
+dp.gui.score.min=Nombre min:
+dp.gui.score.max=Nombre max:
+dp.gui.switch.pvp=[Cliquez pour changer: PvP]
+dp.gui.switch.pve=[Cliquez pour changer: PvE]
+dp.gui.score.title.pvp=Contrôleur de score [Mode PvP]
+dp.gui.score.title.pve=Contrôleur de score [Mode zombie PvE]
+
+# ===== GUI portail de bataille =====
+
+# ===== Team Colors =====
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+
+
+# ===== Interrupteurs généraux =====
+dp.gui.on=Activé
+dp.gui.off=Désactivé
+
+# ===== Chat =====
+dp.chat.team=Équipe
+dp.chat.all=Tous
+dp.chat.hint=Tab:Changer de canal / Enter:Envoyer / Scroll:Historique / ESC:Fermer
+dp.chat.empty=(Aucun message)
+dp.chat.more=↑ Faites défiler pour plus
+
+# ===== Contrôles =====
+key.quickcomm=Commandes rapides
+key.quickcommconfig=Config commandes rapides
+key.chatgui=Chat textuel
+key.mark=Marquer un bloc
+key.categories.mymodid=Objectif D
+
+# ===== Panneau Tab =====
+dp.tab.header.pve=Nom-Morts-Tués-Captures
+dp.tab.header.red=Rouges-Tués-Assistances-Captures-Morts
+dp.tab.header.blue=Bleus-Tués-Assistances-Captures-Morts
+
+# ===== Messages =====
+msg.join.first=Rejoignez d'abord l'équipe %s ou %s (/scoreboard teams join <équipe> <votre nom>)
+msg.enter=Entrer en bataille !
+msg.leave.first=Vous êtes déjà dans l'équipe %s, faites /scoreboard teams leave avant de rejoindre %s
+dp.msg.zombie_capture=%s capturé par les Zombies ! Renforts zombies déployés !
+dp.msg.humans=Humains
+dp.msg.captured=%s capturé par %s !
+dp.msg.base_zombie=Base principale capturée par les Zombies ! Les Zombies gagnent, les Humains perdent !
+dp.msg.base_human=Les Humains ont reconquis la base principale !
+dp.msg.base_red=Base principale capturée par l'équipe rouge ! Score de l'équipe bleue réinitialisé !
+dp.msg.base_blue=Base principale capturée par l'équipe bleue ! Score de l'équipe rouge réinitialisé !
+dp.msg.base=Base principale:
+dp.msg.baseowner=Propriétaire base principale:
+dp.msg.revive=Mode résurrection:
+
+# ===== Diagnostic/Commandes =====
+dp.diag.score_off=[Diagnostic] Perte de score désactivée (enableScore=false) → ne pas perdre de score est normal, tapez score on dans le chat pour activer
+dp.diag.lead=[Diagnostic] Rouges %d pts Bleus %d pts Score %d/%d ±%d/sec enableScore=%s enableCapture=%s PvE=%s
+dp.cmd.score_on=Perte de score activée
+dp.cmd.score_off=Perte de score désactivée
+dp.cmd.capture_on=Capture activée
+dp.cmd.capture_off=Capture désactivée
+dp.cmd.pve_status=Mode zombie PvE: %s
+dp.cmd.pve_on=Activé (les zombies peuvent capturer et renforcer)
+dp.cmd.pve_off=Désactivé
+
+# ===== Lead/Résultat =====
+dp.lead.red=L'équipe rouge mène avec %d points → Rouges +%d Bleus -%d   [%d / %d]
+dp.lead.blue=L'équipe bleue mène avec %d points → Bleus +%d Rouges -%d   [%d / %d]
+dp.result.red_defeat=Défaite des rouges
+dp.result.blue_win=Victoire des bleus
+dp.result.blue_defeat=Défaite des bleus
+dp.result.red_win=Victoire des rouges
+dp.result.nokills=Aucun enregistrement de kills
+dp.result.first=1ère place
+dp.result.second=2ème place
+dp.result.third=3ème place
+dp.result.killline=%s %s Tués %s
+
+# ===== Marqueur tactique =====
+dp.mark.coord=Coord
+dp.mark.bearing=Cap
+dp.mark.spam=Veuillez ne pas spammer
+dp.quickcomm.empty=(Aucune commande, appuyez sur la touche de config pour configurer)
+
+# ===== Contrôleur de score =====
+dp.gui.score.start=Commencer le jeu
+dp.gui.score.end=Terminer le match
+dp.gui.score.attack=Attaque de base:
+dp.gui.score.speed=Vitesse de déplacement (blocs/sec):
+dp.gui.score.health=PV max:
+dp.gui.score.status=Statut:
+dp.gui.score.ongoing=Match en cours
+dp.gui.score.notstarted=Non commencé
+
+# ===== Colonnes panneau Tab =====
+dp.tab.name=Nom
+dp.tab.kill=Tués
+dp.tab.assist=Assistances
+dp.tab.capture=Captures
+dp.tab.death=Morts
+dp.tab.redteam=Équipe rouge
+dp.tab.blueteam=Équipe bleue
+dp.tab.noteam=Sans équipe
+dp.capture.point=Point
+
+# ===== Team Configurator GUI (v1.1.8) =====
+gui.battle.title=Team Configurator
+gui.battle.team=Team: %s
+gui.battle.teamName=Team Name
+gui.battle.max=Max Players
+gui.battle.spawnx=X Coord
+gui.battle.spawny=Y Coord
+gui.battle.spawnz=Z Coord
+gui.battle.color=Color:
+gui.battle.side=Side:
+gui.battle.sidered=Red Side
+gui.battle.sideblue=Blue Side
+gui.battle.add=Add as New Team
+gui.battle.remove=Delete Current Team
+gui.battle.save=Save Config
+gui.battle.saveop=Save Backpack Template
+
+# ===== Team Colors =====
+color.red=Red
+color.blue=Blue
+color.green=Green
+color.yellow=Yellow
+color.purple=Purple
+color.cyan=Cyan
+color.orange=Orange
+color.pink=Pink
+color.brown=Brown
+color.white=White
+
+# ===== Battle Teleporter GUI (v1.1.8) =====
+gui.teleporter.title=Battle Teleporter
+gui.teleporter.select=Team: %s
+gui.teleporter.hint=Redstone activates per toggles below
+gui.teleporter.none=No Team Selected
+
+# ===== Team Messages (v1.1.8) =====
+msg.team.added=Team %s added
+msg.team.removed=Team %s removed
+msg.team.exists=Team %s already exists
+msg.team.limit=Team limit reached (10)
+msg.team.empty=Team name cannot be empty
+tile.teamTeleporter.name=Battle Teleporter
+msg.teleporter.noteam=Teleporter has no team selected. Open it and pick one.
+gui.teleporter.swapon=Swap Gear: On
+gui.teleporter.swapoff=Swap Gear: Off
+gui.teleporter.tpon=Teleport: On
+gui.teleporter.tpoff=Teleport: Off
+dp.msg.eliminated=Team %s eliminated!
+dp.msg.winmulti=Team %s wins!
+dp.gui.score.mode=Mode: %s
+dp.gui.score.mode.duo=Duo Battle
+dp.gui.score.mode.multi=Multi-Team
+msg.team.joined=Joined team %s
+qc.tab.quick=Quick Chat
+qc.tab.hud=HUD Settings
+qc.save=Save
+qc.on=On
+qc.off=Off
+qc.title.quick=Quick Chat Config
+qc.title.hud=HUD Settings
+qc.catname=Category Name
+qc.cmds=Commands (empty = hidden)
+qc.hud.scorebar=Score Bar
+qc.hud.radar=Radar
+qc.hud.ring=Capture Ring
+qc.hud.range=Range Circle
+qc.hud.floating=Floating Names
+qc.hud.scorey=Score Y:
+qc.hud.scorex=Score X:
+qc.hud.scorew=Score Width:
+qc.hud.radary=Radar Y:
+qc.hud.radarw=Radar Width (0=auto):
+qc.hud.hint=Saves apply instantly; X=0 centers, positive moves right
+shift.desc.capturePoint=Capture point: claim it with your team to drain the enemy score
+shift.desc.scoreController=Score controller: set initial score / drain rate, switch duo or multi-team mode, start/end the match
+shift.desc.battlePortal=Team configurator: create and configure teams (max 10), pick color, cap and spawn, save backpack template
+shift.desc.teamTeleporter=Battle teleporter: right-click to pick a team; redstone joins nearby players to that team, swaps gear and teleports
