@@ -1,0 +1,18 @@
+[
+{
+  "modid": "objective_d",
+  "name": "D点攻势",
+  "description": "战地风格的占点/计分/语音通讯系统",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["MyName"],
+  "url": "",
+  "updateUrl": "",
+  "updateJSON": "",
+  "parent": "",
+  "requiredMods": [],
+  "dependencies": [],
+  "dependants": [],
+  "useDependencyInformation": false
+}
+]

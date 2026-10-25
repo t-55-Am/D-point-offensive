@@ -1,0 +1,222 @@
+# ===== Item/Block Names =====
+itemGroup.war_tab=Objective D
+tile.capturePoint.name=Capture Point
+tile.scoreController.name=Score Controller
+tile.battlePortal.name=Battle Portal
+
+# ===== Capture Point GUI =====
+gui.capture.title=Capture Point Config
+gui.capture.name=Point Name
+gui.capture.radius=Radius
+gui.capture.time=Capture Time (sec)
+gui.capture.save=Save
+dp.gui.capture.title=Capture Config
+dp.gui.capture.radius=Radius:
+dp.gui.capture.time=Time (sec):
+dp.gui.capture.name=Name:
+dp.gui.capture.save=Save & Close
+dp.gui.capture.base=Main Base:
+dp.gui.capture.revive=Revive Mode:
+dp.gui.capture.neutral=Neutral
+dp.gui.capture.none=None
+dp.gui.capture.owner=Owner:
+dp.gui.capture.progress=Progress: %.0f%%
+dp.gui.capture.capturing=Capturing:
+dp.gui.capture.baseowner=Main Base Owner:
+dp.gui.capture.human=Humans
+dp.gui.capture.zombie=Zombies
+dp.gui.capture.redteam=Red Team
+dp.gui.capture.blueteam=Blue Team
+
+# ===== Score Controller GUI =====
+gui.score.title=Score Controller
+gui.score.initial=Initial Score
+gui.score.persecond=Score Loss Per Point Per Sec
+gui.score.reset=Reset Score
+gui.score.save=Save Config
+dp.gui.score.title=Score Controller
+dp.gui.score.reset=Reset Score
+dp.gui.score.save=Save Config
+dp.gui.score.pvemode=PvE Mode:
+dp.gui.score.savepve=Save PvE Config
+dp.gui.score.pvpscore=PvP Score
+dp.gui.score.initial=Initial Score:
+dp.gui.score.persec=Loss Per Point Per Sec:
+dp.gui.score.pve=PvE Zombie Mode
+dp.gui.score.interval=Spawn Interval (sec):
+dp.gui.score.count=Spawn Count:
+dp.gui.score.min=Min Count:
+dp.gui.score.max=Max Count:
+dp.gui.switch.pvp=[Click to switch: PvP]
+dp.gui.switch.pve=[Click to switch: PvE]
+dp.gui.score.title.pvp=Score Controller [PvP Mode]
+dp.gui.score.title.pve=Score Controller [PvE Zombie Mode]
+
+# ===== Battle Portal GUI =====
+gui.battle.title=Battle Portal
+gui.battle.red=Red Team Name
+gui.battle.blue=Blue Team Name
+gui.battle.max=Max Players Per Team
+gui.battle.mode0=Mode: Own Inventory
+gui.battle.mode1=Mode: OP Preset Inventory
+gui.battle.saveop=Save OP Inventory Template
+gui.battle.spawnx=X Coord
+gui.battle.spawny=Y Coord
+gui.battle.spawnz=Z Coord
+gui.battle.savespawn=Save Teleport Coord
+gui.battle.save=Save Config
+gui.battle.configRed=Current Config: Red Team
+gui.battle.configBlue=Current Config: Blue Team
+gui.battle.teamName=Team Name
+
+# ===== General Toggle =====
+dp.gui.on=On
+dp.gui.off=Off
+
+# ===== Chat Gui =====
+dp.chat.team=Team
+dp.chat.all=All
+dp.chat.hint=Tab:Switch Channel / Enter:Send / Scroll:History / ESC:Close
+dp.chat.empty=(No messages)
+dp.chat.more=↑ Scroll for more
+
+# ===== Key Bindings =====
+key.quickcomm=Quick Comm
+key.quickcommconfig=Quick Comm Config
+key.chatgui=Text Chat
+key.mark=Mark Block
+key.categories.mymodid=Objective D
+
+# ===== Tab Panel =====
+dp.tab.header.pve=Name-Death-Kill-Capture
+dp.tab.header.red=Red-Kill-Assist-Capture-Death
+dp.tab.header.blue=Blue-Kill-Assist-Capture-Death
+
+# ===== Messages =====
+msg.join.first=Please join team %s or %s first (/scoreboard teams join <team> <your name>)
+msg.team.full=Team %s is full, cannot enter battle
+msg.enter=Enter Battle!
+msg.leave.first=You are already in team %s, please /scoreboard teams leave before joining %s
+dp.msg.zombie_capture=%s captured by Zombies! Zombie reinforcements deployed!
+dp.msg.humans=Humans
+dp.msg.captured=%s captured by %s!
+dp.msg.base_zombie=Main Base captured by Zombies! Zombies win, Humans lose!
+dp.msg.base_human=Humans recaptured the Main Base!
+dp.msg.base_red=Main Base captured by Red Team! Blue Team score reset!
+dp.msg.base_blue=Main Base captured by Blue Team! Red Team score reset!
+dp.msg.base=Main Base:
+dp.msg.baseowner=Main Base Owner:
+dp.msg.revive=Revive Mode:
+
+# ===== Diagnostics/Commands =====
+dp.diag.score_off=[Diagnostic] Score loss is disabled (enableScore=false) → not losing score is normal, type score on in chat to enable
+dp.diag.lead=[Diagnostic] Red %d pts Blue %d pts Score %d/%d ±%d/sec enableScore=%s enableCapture=%s PvE=%s
+dp.cmd.score_on=Score loss enabled
+dp.cmd.score_off=Score loss disabled
+dp.cmd.capture_on=Capture enabled
+dp.cmd.capture_off=Capture disabled
+dp.cmd.pve_status=PvE Zombie Mode: %s
+dp.cmd.pve_on=Enabled (zombies can capture and reinforce)
+dp.cmd.pve_off=Disabled
+
+# ===== Lead/Result =====
+dp.lead.red=Red Team leads with %d points → Red +%d Blue -%d   [%d / %d]
+dp.lead.blue=Blue Team leads with %d points → Blue +%d Red -%d   [%d / %d]
+dp.result.red_defeat=Red Defeated
+dp.result.blue_win=Blue Victory
+dp.result.blue_defeat=Blue Defeated
+dp.result.red_win=Red Victory
+dp.result.nokills=No kill records
+dp.result.first=1st Place
+dp.result.second=2nd Place
+dp.result.third=3rd Place
+dp.result.killline=%s %s Kills %s
+
+# ===== Tactical Mark =====
+dp.mark.coord=Coord
+dp.mark.bearing=Bearing
+dp.mark.spam=Please do not spam
+dp.quickcomm.empty=(No commands, press config key to set up)
+# ===== Score Controller =====
+dp.gui.score.start=Start Game
+dp.gui.score.end=End Match
+dp.gui.score.attack=Base Attack:
+dp.gui.score.speed=Move Speed (blocks/sec):
+dp.gui.score.health=Max Health:
+dp.gui.score.status=Status:
+dp.gui.score.ongoing=Match In Progress
+dp.gui.score.notstarted=Not Started
+
+# ===== Tab Panel Columns =====
+dp.tab.name=Name
+dp.tab.kill=Kills
+dp.tab.assist=Assists
+dp.tab.capture=Captures
+dp.tab.death=Deaths
+dp.tab.redteam=Red Team
+dp.tab.blueteam=Blue Team
+dp.tab.noteam=No Team
+dp.capture.point=Point
+
+gui.battle.team=Team: %s
+gui.battle.color=Color:
+gui.battle.side=Side:
+gui.battle.sidered=Red Side
+gui.battle.sideblue=Blue Side
+gui.battle.add=Add as New Team
+gui.battle.remove=Delete Current Team
+color.red=Red
+color.blue=Blue
+color.green=Green
+color.yellow=Yellow
+color.purple=Purple
+color.cyan=Cyan
+color.orange=Orange
+color.pink=Pink
+color.brown=Brown
+color.white=White
+gui.teleporter.title=Battle Teleporter
+gui.teleporter.select=Team: %s
+gui.teleporter.hint=Redstone activates per toggles below
+gui.teleporter.none=No Team Selected
+msg.team.added=Team %s added
+msg.team.removed=Team %s removed
+msg.team.exists=Team %s already exists
+msg.team.limit=Team limit reached (10)
+msg.team.empty=Team name cannot be empty
+tile.teamTeleporter.name=Battle Teleporter
+msg.teleporter.noteam=Teleporter has no team selected. Open it and pick one.
+gui.teleporter.swapon=Swap Gear: On
+gui.teleporter.swapoff=Swap Gear: Off
+gui.teleporter.tpon=Teleport: On
+gui.teleporter.tpoff=Teleport: Off
+dp.msg.eliminated=Team %s eliminated!
+dp.msg.winmulti=Team %s wins!
+dp.gui.score.mode=Mode: %s
+dp.gui.score.mode.duo=Duo Battle
+dp.gui.score.mode.multi=Multi-Team
+msg.team.joined=Joined team %s
+qc.tab.quick=Quick Chat
+qc.tab.hud=HUD Settings
+qc.save=Save
+qc.on=On
+qc.off=Off
+qc.title.quick=Quick Chat Config
+qc.title.hud=HUD Settings
+qc.catname=Category Name
+qc.cmds=Commands (empty = hidden)
+qc.hud.scorebar=Score Bar
+qc.hud.radar=Radar
+qc.hud.ring=Capture Ring
+qc.hud.range=Range Circle
+qc.hud.floating=Floating Names
+qc.hud.scorey=Score Y:
+qc.hud.scorex=Score X:
+qc.hud.scorew=Score Width:
+qc.hud.radary=Radar Y:
+qc.hud.radarw=Radar Width (0=auto):
+qc.hud.hint=Saves apply instantly; X=0 centers, positive moves right
+shift.desc.capturePoint=Capture point: claim it with your team to drain the enemy score
+shift.desc.scoreController=Score controller: set initial score / drain rate, switch duo or multi-team mode, start/end the match
+shift.desc.battlePortal=Team configurator: create and configure teams (max 10), pick color, cap and spawn, save backpack template
+shift.desc.teamTeleporter=Battle teleporter: right-click to pick a team; redstone joins nearby players to that team, swaps gear and teleports
