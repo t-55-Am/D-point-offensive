@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+    id 'com.gtnewhorizons.retrofuturagradle' version '2.0.3'
+}
+
+version = '1.1.6'
+group = 'com.myname.mymodid'
+
+minecraft {
+    mcVersion = '1.7.10'
+    username = 'T55'
+    useDependencyAccessTransformers = true
+}
+
+repositories {
+    mavenLocal()
+    maven { url = 'https://maven.cleanroommc.com' }
+    maven { url = 'https://jitpack.io' }
+    mavenCentral()
+}
+
+dependencies {
+    // D点攻势本体不依赖其他 mod（NEI/Flan 仅旧版 NEI 插件时代使用，已移除）
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-source', '8', '-target', '8']
+}
+
+processResources {
+    // 资源以大写 Objective_D 目录存放（旧版遗留命名），打包时映射为小写 modid 资源域 assets/objective_d，
+    // 否则 1.7.10 FML 按小写 modid 加载不到 lang/贴图
+    exclude('assets/Objective_D/**')
+    from('src/main/resources/assets/Objective_D') {
+        into('assets/objective_d')
+    }
+}
