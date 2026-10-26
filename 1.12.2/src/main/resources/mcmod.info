@@ -2,10 +2,11 @@
 {
   "modid": "objective_d",
   "name": "D点攻势",
-  "description": "战地风格的占点/计分/语音通讯系统",
+  "description": "战雷风格的占点/计分/语音通讯系统",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "authorList": ["MyName"],
+  "authorList": ["t_55", "jiexiao_2"],
+  "credits": "Textures by jiexiao_2",
   "url": "",
   "updateUrl": "",
   "updateJSON": "",
