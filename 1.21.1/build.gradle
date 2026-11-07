@@ -1,0 +1,54 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        mavenCentral()
+        maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://maven.covers1624.net' }
+    }
+    configurations.classpath {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'org.apache.logging.log4j' &&
+                (details.requested.name == 'log4j-core' || details.requested.name == 'log4j-api')) {
+                details.useVersion '2.22.1'
+            }
+        }
+    }
+    dependencies {
+        classpath 'net.neoforged.gradle:userdev:7.1.38'
+    }
+}
+apply plugin: 'java'
+apply plugin: 'net.neoforged.gradle.userdev'
+
+group = 'com.myname.mymodid'
+version = '1.0.1'
+
+base {
+    archivesName = 'objective-d-neoforge-1.21.1'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url = 'https://maven.minecraftforge.net' }
+    maven { url = 'https://maven.covers1624.net' }
+}
+
+dependencies {
+    implementation 'net.neoforged:neoforge:21.1.84'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec).configureEach {
+    javaLauncher.set(javaToolchains.launcherFor(java.toolchain))
+}
