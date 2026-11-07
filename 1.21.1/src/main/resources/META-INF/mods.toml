@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="objective_d"
+version="1.0.0"
+displayName="D点攻势"
+authors="T55"
+description="D点攻势（占点/计分/语音/战术标记）1.21.1 重写移植版"
+
+[[dependencies.objective_d]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
