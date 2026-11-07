@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "objective_d:block/common_top",
+    "top": "objective_d:block/common_top",
+    "side": "objective_d:block/score_controller_side"
+  }
+}
