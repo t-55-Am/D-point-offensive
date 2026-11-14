@@ -1,12 +1,16 @@
 # D点攻势 (D-point Offensive)
 
+[English](./README.en.md) | 简体中文
+
 战雷（War Thunder）风格 Minecraft 模组：占点 / 计分 / 队伍系统 / 语音通讯 / 战术标记。
 
 - **支持版本**：Minecraft 1.7.10（Forge）、1.12.2（Forge）、1.21.1（NeoForge）
 - **当前版本**：v1.0.1（三版本同步）
 - **作者**：t_55
+- **材质**：7tp
 - **许可证**：MIT
 - **语言**：简体中文 / English / Deutsch / Français / Italiano / 日本語 / Русский（7 语言）
+- **下载**：[CurseForge](https://www.curseforge.com/minecraft/mc-mods/d-point-offensive) | [mcmod.cn](https://www.mcmod.cn/class/32416.html)
 
 ## 功能
 
@@ -63,5 +67,6 @@ D-point-offensive/
 ## 说明
 
 - 源码由 AI 辅助编写，未混淆。
+- 材质由 7tp 绘制。
 - 三个版本功能同步迭代。
-- 发布产物（jar）见 [mcmod.cn](https://www.mcmod.cn/) 或作者蓝奏云/QQ 群。
+- 发布产物（jar）见 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/d-point-offensive) 或 [mcmod.cn](https://www.mcmod.cn/class/32416.html)。
