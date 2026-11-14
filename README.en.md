@@ -1,12 +1,16 @@
 # D-point Offensive
 
+English | [简体中文](./README.md)
+
 A War Thunder-style Minecraft mod: capture points / scoring / team system / voice comms / tactical markers.
 
 - **Supported versions**: Minecraft 1.7.10 (Forge), 1.12.2 (Forge), 1.21.1 (NeoForge)
 - **Current version**: v1.0.1 (synchronized across all three)
 - **Author**: t_55
+- **Textures**: 7tp
 - **License**: MIT
 - **Languages**: English / Simplified Chinese / Deutsch / Français / Italiano / 日本語 / Русский (7 languages)
+- **Download**: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/d-point-offensive) | [mcmod.cn](https://www.mcmod.cn/class/32416.html)
 
 ## Features
 
@@ -63,5 +67,6 @@ Output jars land in each version's `build/libs/`.
 ## Notes
 
 - Source code is AI-assisted, not obfuscated.
+- Textures by 7tp.
 - All three versions iterate in sync.
-- Release jars are distributed via [mcmod.cn](https://www.mcmod.cn/) or author's cloud drive / QQ group.
+- Release jars are on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/d-point-offensive) and [mcmod.cn](https://www.mcmod.cn/class/32416.html).
